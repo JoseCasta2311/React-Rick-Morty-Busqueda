@@ -1,22 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import imagenRickMory from "./img/r-m.png";
+import "./App.css";
+import Characters from "./components/Characters";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={imagenRickMory} alt="Rick0 & Morty" className="img-home" />
+        <h1 className="title">Rick & Morty</h1>
+        <Characters></Characters>
       </header>
     </div>
   );
